@@ -1,37 +1,94 @@
-img {
-    width: 272;
-    display: block;
-    margin: auto;
+nav {
+  width: 100%;
+  overflow: auto;
+  font-family: Arial;
+  font-size: 14px;
 }
-* {
-    font-family: arial,sans-serif;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.googlesearch {
+nav ul li:nth-child(-n+2) {
+  float: left;
+}
+nav ul li {
+    float: right;
+}
+nav a {
     display: block;
+    padding: 12px;
+    color: #404040;
+    text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+  color: #808080;
+}
+.googlelogo {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 100px;
+    padding-bottom: 20px;
     text-align: center;
 }
-p {
-    color: #666;
-}
-
 input {
-    width: 40%;
-    padding: 16px 20px;
-    margin: 20px 0;
-    box-sizing: border-box;
-    background-color: white;
-    background-image: url('images/microphone.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding-left: 40px;
+    font-family: Arial;
+    font-size: 16px;
+    color: #e6e6e6e6;
+    display: block;
+    margin:0 auto;
+    width: 70%;
+    padding: 12px 20px;
+    border: 1px solid #e6e6e6e6;
+    border-style: outset;
+    background: url("https://img.generation-nt.com/google-micro-logo_0096006401628319.jpg") no-repeat right center;
+    background-size: 5%;
+  box-shadow: 1px 4px #f2f2f2;
+}
+.selection {
+  margin-top: 20px;
+  text-align: center;
+}
+.button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #666666;
+  padding: 10px 15px;
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.button:hover {
+    border: 1px solid;
 }
 footer {
-    background-color: #333;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    background: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-    line-height: 40px;
-    min-width: 980px;
+  width: 100%;
+  overflow: auto;
+  font-family: Arial;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li:nth-child(-n+2) {
+  float: left;
+}
+footer ul li {
+    float: right;
+}
+footer a {
+    display: block;
+    padding: 12px;
+    color: #404040;
+    text-decoration: none;
 }
